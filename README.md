@@ -42,7 +42,7 @@ Firefox<br>
 <img src="https://raw.githubusercontent.com/gorhill/uBlock/master/doc/benchmarks/mem-usage-overall-chart-20150205.png" /><br>打开 11 个高流量网页时 "Explicit Allocations" 中的内存占用（64 位 Firefox 35）<br><sup>**Bluhell 只使用到 EasyList 的一部分过滤规则，所以它的屏蔽能力明显弱于其他工具</sup><br><br>
 
 Safari<br>
-<img src="https://raw.githubusercontent.com/gorhill/uBlock/master/doc/benchmarks/mem-usage-overall-chart-safari-20150205.png" /><br><br>
+<img src="https://raw.githubusercontent.com/gorhill/uBlock/master/doc/benchmarks/mem-usage-overall-chart-safari-20150205.png" /><br>打开 11 个高流量网页时的总体内存占用（Safari 8.0）<br><br>
 
 </div>
 
@@ -54,7 +54,7 @@ Safari<br>
 
 <p align="center">
 µBlock 也让 CPU 更省心<br>
-<img src="https://raw.githubusercontent.com/gorhill/uBlock/master/doc/benchmarks/cpu-usage-overall-chart-20141226.png" /><br>
+<img src="https://raw.githubusercontent.com/gorhill/uBlock/master/doc/benchmarks/cpu-usage-overall-chart-20141226.png" /><br>统计在基准测试中扩展本身累计的内存占用<br>基准测试中收集到的CPU占用率样本（每秒的百分比）总和<br>
 <sup>基准测试详细情况参见：<a href="https://github.com/gorhill/uBlock/blob/master/doc/benchmarks/cpu-usage-overall-20141226.ods">这个 LibreOffice spreadsheet</a>。</sup>
 </p>
 
