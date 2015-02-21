@@ -62,7 +62,7 @@ Safari<br>
 
 <p align="center">
 变得简洁高效并不意味着屏蔽得少<br>
-<img src="https://raw.githubusercontent.com/gorhill/uBlock/master/doc/benchmarks/privex-201409-30.png" /><br>
+<img src="https://raw.githubusercontent.com/gorhill/uBlock/master/doc/benchmarks/privex-201409-30.png" /><br>连接到第三方服务器的网络请求数量<br>柱状图越低表示越少连接到第三方服务器<br>
 <sup>基准测试详细情况参见： 
 <a href="https://github.com/fang5566/uBlock/wiki/%C2%B5Block-and-others:-Blocking-ads,-trackers,-malwares">µBlock and others: Blocking ads, trackers, malwares</a>。
 </p>
