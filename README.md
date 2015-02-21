@@ -109,7 +109,7 @@ Safari<br>
 
 ![Popup](https://raw.githubusercontent.com/gorhill/uBlock/master/doc/img/popup-1.png)
 
-你还可以了解[动态过滤](https://github.com/gorhill/uBlock/wiki/Dynamic-filtering:-quick-guide)等高级功能，更多的高级用法参见 [µBlock 的 wiki 页面](https://github.com/gorhill/uBlock/wiki)。
+你还可以了解[动态过滤](https://github.com/fang5566/uBlock/wiki/Dynamic-filtering:-quick-guide)等高级功能，更多的高级用法参见 [µBlock 的 wiki 页面](https://github.com/fang5566/uBlock/wiki)。
 
 ## 关于
 
