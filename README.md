@@ -39,7 +39,7 @@ Chromium <sup>[2]</sup><br>
 <img src="https://raw.githubusercontent.com/gorhill/uBlock/master/doc/benchmarks/mem-usage-overall-chart-20141224.png" /><br>打开 11 个高流量网页时的总体内存占用(MB)（64 位 Chromium）<br><br>
 
 Firefox<br>
-<img src="https://raw.githubusercontent.com/gorhill/uBlock/master/doc/benchmarks/mem-usage-overall-chart-20150205.png" /><br>打开 11 个高流量网页时 "Explicit Allocations" 中的内存占用（64 位 Firefox 35）<br>**Bluhell 只使用到 EasyList 的一部分过滤规则，所以它的屏蔽能力明显弱于其他工具<br><br>
+<img src="https://raw.githubusercontent.com/gorhill/uBlock/master/doc/benchmarks/mem-usage-overall-chart-20150205.png" /><br>打开 11 个高流量网页时 "Explicit Allocations" 中的内存占用（64 位 Firefox 35）<br><sup>**Bluhell 只使用到 EasyList 的一部分过滤规则，所以它的屏蔽能力明显弱于其他工具</sup><br><br>
 
 Safari<br>
 <img src="https://raw.githubusercontent.com/gorhill/uBlock/master/doc/benchmarks/mem-usage-overall-chart-safari-20150205.png" /><br><br>
