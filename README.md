@@ -3,7 +3,7 @@
 
 **支持多浏览器的高效过滤工具，快速、有效且简洁。**
 
-* [用途和常规信息](#基本观点)
+* [用途和常规信息](#基础介绍)
 * [性能和运行效率](#性能比较)
   * [内存占用](#内存占用)
   * [CPU 占用](#cpu-占用)
@@ -18,7 +18,7 @@
 
 # ![Build](https://travis-ci.org/gorhill/uBlock.svg?branch=master)
 
-## 基本观点
+## 基础介绍
 
 µBlock 不是一个*广告过滤工具*，它是具有一般性用途的过滤工具，屏蔽广告的功能是通过支持 [Adblock Plus 过滤规则语法](https://adblockplus.org/zh_CN/filters)实现的。µBlock 还[扩充](https://github.com/gorhill/uBlock/wiki/Filter-syntax-extensions)了语法，一开始就支持自定义过滤规则。
 
