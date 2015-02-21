@@ -1,5 +1,5 @@
 # <sub>![logo](https://raw.githubusercontent.com/gorhill/uBlock/master/src/img/browsericons/icon38.png)</sub> µBlock
-<sub>请将它读作 _you-block_，意思是"你来决定什么可以进入你的浏览器"，"µ" 可以看作是换装后的 "u"，为的是强调它的低资源占用。<br></sub><sup>请原谅我们取了这么个含糊的名字，毕竟我们是写代码的，而不是搞营销的。</sup>
+<sub>请将它读作 _you-block_，意思是"由你决定什么可以进入你的浏览器"，"µ" 可以看作是换装后的 "u"，强调它的低资源占用。<br></sub><sup>很抱歉取了这么个含糊的名字，但毕竟我们是写代码的，而不是搞营销的。</sup>
 
 **支持多浏览器的高效过滤工具，快速、有效且简洁。**
 
@@ -20,20 +20,20 @@
 
 ## 基本观点
 
-µBlock 不是一个*广告过滤工具*，它是具有一般性用途的过滤工具，屏蔽广告的功能是通过支持 [Adblock Plus 过滤规则语法](https://adblockplus.org/en/filters)实现的。µBlock 还[扩充](https://github.com/gorhill/uBlock/wiki/Filter-syntax-extensions)了语法，开发伊始就支持自定义过滤规则。
+µBlock 不是一个*广告过滤工具*，它是具有一般性用途的过滤工具，屏蔽广告的功能是通过支持 [Adblock Plus 过滤规则语法](https://adblockplus.org/en/filters)实现的。µBlock 还[扩充](https://github.com/gorhill/uBlock/wiki/Filter-syntax-extensions)了语法，一开始就支持自定义过滤规则。
 
-这就是说，最重要的是知道使用过滤工具**不是**一种[偷窃行为](https://twitter.com/LeaVerou/status/518154828166725632)，别总抱着这种令人不爽的想法。_最终_在逻辑上`屏蔽 = 偷窃`会成立的也是因侵犯隐私权利而被定罪。
+这就是说，最重要的是知道使用过滤工具**不是**一种[偷窃行为](https://twitter.com/LeaVerou/status/518154828166725632)，别总抱着这种令人不爽的想法。_最终_在逻辑上`屏蔽 = 偷窃`会成立也是因为侵犯隐私权利而被定罪。
 
 无论"温和"与否，现如今在您浏览大多数网站的时候广告都是最显而易见的侵犯隐私行为。**µBlock 的主要目的是帮助用户抵御这种侵犯隐私的行为**，针对的是那些不想用更技术性、更复杂的方法（比如 [µMatrix](https://github.com/gorhill/uMatrix)）解决问题的用户。
 
-μBlock 安装后会默认开启 _EasyList_、_Peter Lowe's Adservers_ 和 _EasyPrivacy_，此外还有许多规则列表可以屏蔽跟踪、分析行为和其他内容，我们也支持根据 hosts 文件来屏蔽。
+μBlock 安装后会默认开启 _EasyList_、_Peter Lowe's Adservers_ 和 _EasyPrivacy_，此外还有许多规则列表可以屏蔽跟踪、分析等行为，我们也支持根据 hosts 文件来屏蔽。
 
 ## 性能比较
 
 #### 内存占用
 
 <div align="center">
-从平均值来看，µBlock <b>的确</b>让你的浏览器运行起来更轻巧。<sup>[1]</sup><br><br>
+相比平均值，µBlock <b>的确</b>让你的浏览器运行起来更轻巧。<sup>[1]</sup><br><br>
 
 Chromium <sup>[2]</sup><br>
 <img src="https://raw.githubusercontent.com/gorhill/uBlock/master/doc/benchmarks/mem-usage-overall-chart-20141224.png" /><br><br>
@@ -48,7 +48,7 @@ Safari<br>
 
 <sup>[1] 基准测试详细情况参见： <a href="https://github.com/fang5566/uBlock/wiki/Firefox-version:-benchmarking-memory-footprint">Firefox version: benchmarking memory footprint</a>。</sup><br>
 
-<sup>[2] 重要提示：目前[Chromium 39+ 存在一个每次打开扩展弹出界面时会产生新的内存泄漏的 bug](https://code.google.com/p/chromium/issues/detail?id=441500)，会影响<i>所有</i>扩展，在测量 Chromium 的内存占用时别忘了这点。我自己在测试中已避免完全打开弹出界面。</sup><br>
+<sup>[2] 重要提示：目前[Chromium 39+ 存在一个每次打开扩展弹出界面都会产生新的内存泄漏的 bug](https://code.google.com/p/chromium/issues/detail?id=441500)，会影响<i>所有</i>扩展，测量 Chromium 的内存占用时别忘了这点。我自己在测试中已避免完全打开弹出界面。</sup><br>
 
 #### CPU 占用
 
@@ -87,13 +87,13 @@ Safari<br>
 
 #### Safari
 
-##### 仅支持 8.0 或更新的版本
+##### 仅支持 8.0 或更高的版本
 
 你可以到[这里](https://chrismatic.io/ublock)安装最新版本的 µBlock for Safari。
 
-你还可以在 [Safari Extension Gallery](https://extensions.apple.com/details/?id=net.gorhill.uBlock-96G4BAKDQ9) 下载 μBlock，不过不能保证你下载的是最新的版本。
+[Safari Extension Gallery](https://extensions.apple.com/details/?id=net.gorhill.uBlock-96G4BAKDQ9) 也提供下载，不过不能保证是最新的版本。
 
-<sup>早于 Safari 8.0 的版本存在一个在 μBlock 安装过程中会崩溃的 bug，所以不建议你使用这些版本安装 μBlock（*如果你一定要安装，请自担风险*）。</sup>
+<sup>低于 Safari 8.0 的版本存在一个安装 μBlock 时会崩溃的 bug，所以不建议你使用这些版本安装 μBlock（*如果一定要安装，请自担风险*）。</sup>
 
 #### 所有浏览器的注意事项
 
