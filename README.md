@@ -105,7 +105,7 @@ Safari<br>
 
 ## 文档
 
-[Quick guide: popup user interface](https://github.com/fang5566/uBlock/wiki/Quick-guide:-popup-user-interface)
+[快速指南：弹出界面](https://github.com/fang5566/uBlock/wiki/%E5%BF%AB%E9%80%9F%E6%8C%87%E5%8D%97%EF%BC%9A%E5%BC%B9%E5%87%BA%E7%95%8C%E9%9D%A2)
 
 ![Popup](https://raw.githubusercontent.com/gorhill/uBlock/master/doc/img/popup-1.png)
 
