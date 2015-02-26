@@ -55,7 +55,7 @@ Safari<br>
 <p align="center">
 µBlock 也让 CPU 更省心<br>
 <img src="https://raw.githubusercontent.com/gorhill/uBlock/master/doc/benchmarks/cpu-usage-overall-chart-20141226.png" /><br>统计在基准测试中扩展本身累计的内存占用<br>基准测试中收集到的CPU占用率样本（每秒的百分比）总和<br>
-<sup>基准测试详细情况参见：<a href="https://github.com/gorhill/uBlock/blob/master/doc/benchmarks/cpu-usage-overall-20141226.ods">这个 LibreOffice spreadsheet</a>。</sup>
+<sup>基准测试详细情况参见：<a href="https://github.com/gorhill/uBlock/blob/master/doc/benchmarks/cpu-usage-overall-20141226.ods">这个 LibreOffice 电子表格</a>。</sup>
 </p>
 
 #### 屏蔽能力
@@ -64,7 +64,7 @@ Safari<br>
 变得简洁高效并不意味着屏蔽得少<br>
 <img src="https://raw.githubusercontent.com/gorhill/uBlock/master/doc/benchmarks/privex-201409-30.png" /><br>连接到第三方服务器的网络请求数量<br>柱状图越低表示越少连接到第三方服务器<br>
 <sup>基准测试详细情况参见： 
-<a href="https://github.com/fang5566/uBlock/wiki/%C2%B5Block-and-others:-Blocking-ads,-trackers,-malwares">µBlock and others: Blocking ads, trackers, malwares</a>。
+<a href="https://github.com/fang5566/uBlock/wiki/%C2%B5Block-%E5%92%8C%E5%85%B6%E4%BB%96%E5%B7%A5%E5%85%B7%E5%9C%A8%E5%B1%8F%E8%94%BD%E5%B9%BF%E5%91%8A%E3%80%81%E8%B7%9F%E8%B8%AA%E8%A1%8C%E4%B8%BA%E5%92%8C%E6%81%B6%E6%84%8F%E5%9F%9F%E5%90%8D%E6%96%B9%E9%9D%A2%E7%9A%84%E6%AF%94%E8%BE%83">µBlock 和其他工具在屏蔽广告、跟踪行为和恶意域名方面的比较</a>。
 </p>
 
 #### 快速测试
