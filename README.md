@@ -20,7 +20,7 @@
 
 ## 基础介绍
 
-µBlock 不是一个*广告过滤工具*，它是具有一般性用途的过滤工具，屏蔽广告的功能是通过支持 [Adblock Plus 过滤规则语法](https://adblockplus.org/zh_CN/filters)实现的。µBlock 还[扩充](https://github.com/gorhill/uBlock/wiki/Filter-syntax-extensions)了语法，一开始就支持自定义过滤规则。
+µBlock 不是一个*广告过滤工具*，它是具有一般性用途的过滤工具，屏蔽广告的功能是通过支持 [Adblock Plus 过滤规则语法](https://adblockplus.org/zh_CN/filters)实现的。µBlock 还[扩充](https://github.com/fang5566/uBlock/wiki/%E6%89%A9%E5%85%85%E7%9A%84%E8%BF%87%E6%BB%A4%E8%A7%84%E5%88%99%E8%AF%AD%E6%B3%95)了语法，一开始就支持自定义过滤规则。
 
 这就是说，最重要的是知道使用过滤工具**不是**一种[偷窃行为](https://twitter.com/LeaVerou/status/518154828166725632)，别总抱着这种令人不爽的想法。_最终_在逻辑上`屏蔽 = 偷窃`会成立也是因为侵犯隐私权利而被定罪。
 
