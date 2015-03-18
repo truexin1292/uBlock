@@ -6,6 +6,12 @@ width="38">
 </sub>
 uBlock
 </h1>
+<p align="center">
+<sup> <!-- Pronounciation -->
+      pronounced <i>you-block</i> (<code>/ˈjuːˌblɒk/</code>) — <i>you</i> decide what enters your browser.
+</sup>
+<br>
+</p>
 
 **支持多浏览器的高效过滤工具，快速、有效且简洁。**
 
