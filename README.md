@@ -123,7 +123,7 @@ Safari<br>
 
 ## 关于
 
-[uBlock 的 manifesto](MANIFESTO.md)
+[uBlock 的声明](MANIFESTO.md)
 
 它是免费、开源的，属于用户也来自用户，无需任何捐助。
 
