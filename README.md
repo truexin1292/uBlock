@@ -1,5 +1,11 @@
-# <sub>![logo](https://raw.githubusercontent.com/gorhill/uBlock/master/src/img/browsericons/icon38.png)</sub> µBlock
-<sub>请将它读作 _you-block_，意思是"由你决定什么可以进入你的浏览器"，"µ" 可以看作是换装后的 "u"，强调它的低资源占用。<br></sub><sup>很抱歉取了这么个含糊的名字，但毕竟我们是写代码的，而不是搞营销的。</sup>
+<h1 align="center">
+<sub>
+<img src="https://raw.githubusercontent.com/gorhill/uBlock/master/doc/img/icon38@2x.png"
+height="38"
+width="38">
+</sub>
+uBlock
+</h1>
 
 **支持多浏览器的高效过滤工具，快速、有效且简洁。**
 
