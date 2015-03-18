@@ -8,7 +8,7 @@ uBlock
 </h1>
 <p align="center">
 <sup> <!-- Pronounciation -->
-      读作 <i>you-block</i> (<code>/ˈjuːˌblɒk/</code>) — <i>你</i>来决定什么可以进入浏览器。
+      读作 <i>you-block</i> (<code>/ˈjuːˌblɒk/</code>) — <i>你</i> 来决定什么可以进入浏览器。
 </sup>
 <br>
 </p>
@@ -38,7 +38,7 @@ uBlock
 
 μBlock 安装后会默认开启 _EasyList_、_Peter Lowe's Adservers_ 和 _EasyPrivacy_，此外还有许多规则列表可以屏蔽跟踪、分析等行为，我们也支持根据 hosts 文件来屏蔽。
 
-如果您发现 uBlock 安装完后屏蔽太多内容，你可以很方便地取消任何预开启的过滤规则列表，参考 Adblock Plus 安装后默认只开启 _EasyList_。
+如果你发现 uBlock 安装完后屏蔽太多内容，你可以很方便地取消任何预开启的过滤规则列表，参考 Adblock Plus 安装后默认只开启 _EasyList_。
 
 ## 性能比较
 
@@ -101,11 +101,9 @@ Safari<br>
 
 ##### 仅支持 8.0 或更高的版本
 
-你可以到[这里](https://chrismatic.io/ublock)安装最新版本的 µBlock for Safari。
+你可以到[这里](https://chrismatic.io/ublock)安装最新版本的 µBlock for Safari，或到 [Safari Extension Gallery](https://extensions.apple.com/details/?id=net.gorhill.uBlock-96G4BAKDQ9) 安装可能过期的旧版本。
 
-[Safari Extension Gallery](https://extensions.apple.com/details/?id=net.gorhill.uBlock-96G4BAKDQ9) 也提供下载，不过不能保证是最新的版本。
-
-<sup>低于 Safari 8.0 的版本存在一个安装 μBlock 时会崩溃的 bug，所以不建议你使用这些版本安装 μBlock（*如果一定要安装，请自担风险*）。</sup>
+<sup>支持 Safari 6.1 及后续版本（开发平台：Safari 8/Yosemite;测试平台：6.1/Mountain Lion 及 7/Mavericks）。</sup>
 
 #### 所有浏览器的注意事项
 
@@ -121,9 +119,11 @@ Safari<br>
 
 ![Popup](https://raw.githubusercontent.com/gorhill/uBlock/master/doc/img/popup-1.png)
 
-你还可以了解[动态过滤](https://github.com/fang5566/uBlock/wiki/Dynamic-filtering:-quick-guide)等高级功能，更多的高级用法参见 [µBlock 的 wiki 页面](https://github.com/fang5566/uBlock/wiki)。
+你还可以了解[动态过滤](https://github.com/fang5566/uBlock/wiki/%E5%8A%A8%E6%80%81%E8%BF%87%E6%BB%A4)等高级功能，更多的高级用法参见 [µBlock 的维基页面](https://github.com/fang5566/uBlock/wiki)。
 
 ## 关于
+
+[uBlock 的 manifesto](MANIFESTO.md)
 
 它是免费、开源的，属于用户也来自用户，无需任何捐助。
 
