@@ -26,9 +26,7 @@ uBlock
   * [Firefox](#firefox)
   * [Safari](#safari)
 * [发布历史](#发布历史)
-* [Wiki](https://github.com/fang5566/uBlock/wiki)
-
-# ![Build](https://travis-ci.org/gorhill/uBlock.svg?branch=master)
+* [维基页面](https://github.com/fang5566/uBlock/wiki)
 
 ## 基础介绍
 
@@ -39,6 +37,8 @@ uBlock
 无论"温和"与否，现如今在您浏览大多数网站的时候广告都是最显而易见的侵犯隐私行为。**µBlock 的主要目的是帮助用户抵御这种侵犯隐私的行为**，针对的是那些不想用更技术性、更复杂的方法（比如 [µMatrix](https://github.com/gorhill/uMatrix)）解决问题的用户。
 
 μBlock 安装后会默认开启 _EasyList_、_Peter Lowe's Adservers_ 和 _EasyPrivacy_，此外还有许多规则列表可以屏蔽跟踪、分析等行为，我们也支持根据 hosts 文件来屏蔽。
+
+如果您发现 uBlock 安装完后屏蔽太多内容，你可以很方便地取消任何预开启的过滤规则列表，参考 Adblock Plus 安装后默认只开启 _EasyList_。
 
 ## 性能比较
 
