@@ -30,13 +30,13 @@ uBlock
 
 ## 基础介绍
 
-µBlock 不是一个*广告过滤工具*，它是具有一般性用途的过滤工具，屏蔽广告的功能是通过支持 [Adblock Plus 过滤规则语法](https://adblockplus.org/zh_CN/filters)实现的。µBlock 还[扩充](https://github.com/fang5566/uBlock/wiki/%E6%89%A9%E5%85%85%E7%9A%84%E8%BF%87%E6%BB%A4%E8%A7%84%E5%88%99%E8%AF%AD%E6%B3%95)了语法，一开始就支持自定义过滤规则。
+uBlock 不是一个*广告过滤工具*，它是具有一般性用途的过滤工具，屏蔽广告的功能是通过支持 [Adblock Plus 过滤规则语法](https://adblockplus.org/zh_CN/filters)实现的。uBlock 还[扩充](https://github.com/fang5566/uBlock/wiki/%E6%89%A9%E5%85%85%E7%9A%84%E8%BF%87%E6%BB%A4%E8%A7%84%E5%88%99%E8%AF%AD%E6%B3%95)了语法，一开始就支持自定义过滤规则。
 
 这就是说，最重要的是知道使用过滤工具**不是**一种[偷窃行为](https://twitter.com/LeaVerou/status/518154828166725632)，别总抱着这种令人不爽的想法。_最终_在逻辑上`屏蔽 = 偷窃`会成立也是因为侵犯隐私权利而被定罪。
 
-无论"温和"与否，现如今在您浏览大多数网站的时候广告都是最显而易见的侵犯隐私行为。**µBlock 的主要目的是帮助用户抵御这种侵犯隐私的行为**，针对的是那些不想用更技术性、更复杂的方法（比如 [µMatrix](https://github.com/gorhill/uMatrix)）解决问题的用户。
+无论"温和"与否，现如今在您浏览大多数网站的时候广告都是最显而易见的侵犯隐私行为。**uBlock 的主要目的是帮助用户抵御这种侵犯隐私的行为**，针对的是那些不想用更技术性、更复杂的方法（比如 [µMatrix](https://github.com/gorhill/uMatrix)）解决问题的用户。
 
-μBlock 安装后会默认开启 _EasyList_、_Peter Lowe's Adservers_ 和 _EasyPrivacy_，此外还有许多规则列表可以屏蔽跟踪、分析等行为，我们也支持根据 hosts 文件来屏蔽。
+uBlock 安装后会默认开启 _EasyList_、_Peter Lowe's Adservers_ 和 _EasyPrivacy_，此外还有许多规则列表可以屏蔽跟踪、分析等行为，我们也支持根据 hosts 文件来屏蔽。
 
 如果你发现 uBlock 安装完后屏蔽太多内容，你可以很方便地取消任何预开启的过滤规则列表，参考 Adblock Plus 安装后默认只开启 _EasyList_。
 
@@ -45,7 +45,7 @@ uBlock
 #### 内存占用
 
 <div align="center">
-相比平均值，µBlock <b>的确</b>让你的浏览器运行起来更轻巧。<sup>[1]</sup><br><br>
+相比平均值，uBlock <b>的确</b>让你的浏览器运行起来更轻巧。<sup>[1]</sup><br><br>
 
 Chromium <sup>[2]</sup><br>
 <img src="https://raw.githubusercontent.com/gorhill/uBlock/master/doc/benchmarks/mem-usage-overall-chart-20141224.png" /><br>打开 11 个高流量网页时的总体内存占用(MB)（64 位 Chromium）<br><br>
@@ -65,7 +65,7 @@ Safari<br>
 #### CPU 占用
 
 <p align="center">
-µBlock 也让 CPU 更省心<br>
+uBlock 也让 CPU 更省心<br>
 <img src="https://raw.githubusercontent.com/gorhill/uBlock/master/doc/benchmarks/cpu-usage-overall-chart-20141226.png" /><br>统计在基准测试中扩展本身累计的内存占用<br>基准测试中收集到的CPU占用率样本（每秒的百分比）总和<br>
 <sup>基准测试详细情况参见：<a href="https://github.com/gorhill/uBlock/blob/master/doc/benchmarks/cpu-usage-overall-20141226.ods">这个 LibreOffice 电子表格</a>。</sup>
 </p>
@@ -107,7 +107,7 @@ Safari<br>
 
 #### 所有浏览器的注意事项
 
-为了能够真正感受到 µBlock 的高效，建议你不要同时安装其他的广告过滤工具，比如 AdBlock 或 Adblock Plus，因为 µBlock [绝不逊色于](#屏蔽能力)这些流行的广告过滤工具。
+为了能够真正感受到 uBlock 的高效，建议你不要同时安装其他的广告过滤工具，比如 AdBlock 或 Adblock Plus，因为 uBlock [绝不逊色于](#屏蔽能力)这些流行的广告过滤工具。
 
 ## 发布历史
 
@@ -119,7 +119,7 @@ Safari<br>
 
 ![Popup](https://raw.githubusercontent.com/gorhill/uBlock/master/doc/img/popup-1.png)
 
-你还可以了解[动态过滤](https://github.com/fang5566/uBlock/wiki/%E5%8A%A8%E6%80%81%E8%BF%87%E6%BB%A4)等高级功能，更多的高级用法参见 [µBlock 的维基页面](https://github.com/fang5566/uBlock/wiki)。
+你还可以了解[动态过滤](https://github.com/fang5566/uBlock/wiki/%E5%8A%A8%E6%80%81%E8%BF%87%E6%BB%A4)等高级功能，更多的高级用法参见 [uBlock 的维基页面](https://github.com/fang5566/uBlock/wiki)。
 
 ## 关于
 
