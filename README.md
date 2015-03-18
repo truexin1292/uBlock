@@ -129,7 +129,7 @@ Safari<br>
 
 没有预置的规则列表，扩展什么事也做不到，所以如果你真心想尽一份力，不妨记住那些维护规则列表的人，是他们的努力才让我们能免费用上这些规则列表。
 
-你可以通过协助翻译我们的项目来尽一份力，项目托管在 [Crowdin](https://crowdin.net/project/ublock)，你可以在这里参与 μBlock 的本地化工作。
+你可以通过协助翻译项目来尽一份力，项目托管在 [Crowdin](https://crowdin.net/project/ublock)。
 
 ## 许可协议
 
