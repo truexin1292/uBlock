@@ -1,10 +1,8 @@
-### This is µBlock's manifesto
+### 这里是 µBlock 的声明
 
-1. The **user decides** what web content is acceptable or not in their browser.
+1. 让**用户来决定**浏览器可以看到什么样的网页内容。
 
-The µBlock project does not support Adblock Plus' _"Acceptable Ads Manifesto"_,
-because the _"Acceptable Ads"_ marketing campaign is really the business
-plan of a for-profit entity.
+uBlock 项目不支持 Adblock Plus 的_"可接受广告声明"_，
+因为_"可接受广告"_实际上就是一项营销活动，源自他们追逐利润的商业计划。
 
-Users are best placed to know what is or is not acceptable to them. µBlock's
-sole purpose is to give users the means to enforce their own choices.
+只有用户才能决定他们想看什么，所以 uBlock 的唯一目的就是提供途径让用户坚持他们的选择。
