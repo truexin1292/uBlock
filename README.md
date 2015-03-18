@@ -8,12 +8,12 @@ uBlock
 </h1>
 <p align="center">
 <sup> <!-- Pronounciation -->
-      pronounced <i>you-block</i> (<code>/ˈjuːˌblɒk/</code>) — <i>you</i> decide what enters your browser.
+      读作 <i>you-block</i> (<code>/ˈjuːˌblɒk/</code>) — <i>你</i>来决定什么可以进入浏览器。
 </sup>
 <br>
 </p>
 
-**支持多浏览器的高效过滤工具，快速、有效且简洁。**
+**支持多浏览器的高效过滤工具，快速、有效且简洁。**&nbsp;&nbsp;[<img src="https://travis-ci.org/gorhill/uBlock.svg?branch=master" height="12">](https://travis-ci.org/gorhill/uBlock)
 
 * [用途和常规信息](#基础介绍)
 * [性能和运行效率](#性能比较)
