@@ -58,7 +58,7 @@ Safari<br>
 
 </div>
 
-<sup>[1] 基准测试详细情况参见： <a href="https://github.com/fang5566/uBlock/wiki/Firefox-version:-benchmarking-memory-footprint">Firefox version: benchmarking memory footprint</a>。</sup><br>
+<sup>[1] 基准测试详细情况参见： <a href="https://github.com/fang5566/uBlock/wiki/Firefox-%E5%9C%A8%E5%9F%BA%E5%87%86%E6%B5%8B%E8%AF%95%E4%B8%AD%E7%9A%84%E5%86%85%E5%AD%98%E5%8D%A0%E7%94%A8%E5%80%BC">Firefox 在基准测试中的内存占用值</a>。</sup><br>
 
 <sup>[2] 重要提示：目前[Chromium 39+ 存在一个每次打开扩展弹出界面都会产生新的内存泄漏的 bug](https://code.google.com/p/chromium/issues/detail?id=441500)，会影响<i>所有</i>扩展，测量 Chromium 的内存占用时别忘了这点。我自己在测试中已避免完全打开弹出界面。</sup><br>
 
