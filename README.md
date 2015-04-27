@@ -16,6 +16,7 @@ uBlock Origin
 **支持多浏览器的高效过滤工具，快速、有效且简洁。**&nbsp;&nbsp;[<img src="https://travis-ci.org/gorhill/uBlock.svg?branch=master" height="12">](https://travis-ci.org/gorhill/uBlock)
 
 * [用途和常规信息](#基础介绍)
+* [文档](#文档)
 * [性能和运行效率](#性能比较)
   * [内存占用](#内存占用)
   * [CPU 占用](#cpu-占用)
