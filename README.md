@@ -30,22 +30,30 @@ uBlock
 
 ## 基础介绍
 
-uBlock 不是一个*广告过滤工具*，它是具有一般性用途的过滤工具，屏蔽广告的功能是通过支持 [Adblock Plus 过滤规则语法](https://adblockplus.org/zh_CN/filters)实现的。uBlock 还[扩充](https://github.com/fang5566/uBlock/wiki/%E6%89%A9%E5%85%85%E7%9A%84%E8%BF%87%E6%BB%A4%E8%A7%84%E5%88%99%E8%AF%AD%E6%B3%95)了语法，一开始就支持自定义过滤规则。
+uBlock Origin（或uBlock₀）不是一个*广告过滤工具*，它是具有一般性用途的过滤工具，屏蔽广告的功能是通过支持 [Adblock Plus 过滤规则语法](https://adblockplus.org/zh_CN/filters)实现的。uBlock₀ 还[扩充](https://github.com/fang5566/uBlock/wiki/%E6%89%A9%E5%85%85%E7%9A%84%E8%BF%87%E6%BB%A4%E8%A7%84%E5%88%99%E8%AF%AD%E6%B3%95)了语法，一开始就支持自定义过滤规则。
 
 这就是说，最重要的是知道使用过滤工具**不是**一种[偷窃行为](https://twitter.com/LeaVerou/status/518154828166725632)，别总抱着这种令人不爽的想法。_最终_在逻辑上`屏蔽 = 偷窃`会成立也是因为侵犯隐私权利而被定罪。
 
-无论"温和"与否，现如今在您浏览大多数网站的时候广告都是最显而易见的侵犯隐私行为。**uBlock 的主要目的是帮助用户抵御这种侵犯隐私的行为**，针对的是那些不想用更技术性、更复杂的方法（比如 [µMatrix](https://github.com/gorhill/uMatrix)）解决问题的用户。
+无论"温和"与否，现如今在您浏览大多数网站的时候广告都是最显而易见的侵犯隐私行为。**uBlock₀ 的主要目的是帮助用户抵御这种侵犯隐私的行为**，针对的是那些不想用更具技术、更复杂的方法（比如 [µMatrix](https://github.com/gorhill/uMatrix)）解决问题的用户。
 
-uBlock 安装后会默认开启 _EasyList_、_Peter Lowe's Adservers_ 和 _EasyPrivacy_，此外还有许多规则列表可以屏蔽跟踪、分析等行为，我们也支持根据 hosts 文件来屏蔽。
+uBlock₀ 安装后会默认开启 _EasyList_、_Peter Lowe's Adservers_、 _EasyPrivacy_ 和 _Malware domains_，此外还有许多过滤规则列表可以屏蔽跟踪、分析等行为，我们也支持根据 hosts 文件来屏蔽。
 
-如果你发现 uBlock 安装完后屏蔽太多内容，你可以很方便地取消任何预开启的过滤规则列表，参考 Adblock Plus 安装后默认只开启 _EasyList_。
+如果你发现 uBlock₀ 安装完后屏蔽太多内容，你可以很方便地取消任何预开启的过滤规则列表，参考 Adblock Plus 安装后默认只开启 _EasyList_。
+
+## 文档
+
+[快速指南：弹出界面](https://github.com/fang5566/uBlock/wiki/%E5%BF%AB%E9%80%9F%E6%8C%87%E5%8D%97%EF%BC%9A%E5%BC%B9%E5%87%BA%E7%95%8C%E9%9D%A2)
+
+![弹出界面](https://raw.githubusercontent.com/gorhill/uBlock/master/doc/img/popup-1.png)
+
+你还可以了解[动态过滤](https://github.com/fang5566/uBlock/wiki/%E5%8A%A8%E6%80%81%E8%BF%87%E6%BB%A4)等高级功能，更多的高级用法参见 [uBlock₀ 的维基页面](https://github.com/fang5566/uBlock/wiki)。
 
 ## 性能比较
 
 #### 内存占用
 
 <div align="center">
-相比平均值，uBlock <b>的确</b>让你的浏览器运行起来更轻巧。<sup>[1]</sup><br><br>
+相比平均值，uBlock₀ <b>的确</b>让你的浏览器运行起来更轻巧。<sup>[1]</sup><br><br>
 
 Chromium <sup>[2]</sup><br>
 <img src="https://raw.githubusercontent.com/gorhill/uBlock/master/doc/benchmarks/mem-usage-overall-chart-20141224.png" /><br>打开 11 个高流量网页时的总体内存占用(MB)（64 位 Chromium）<br><br>
@@ -65,9 +73,9 @@ Safari<br>
 #### CPU 占用
 
 <p align="center">
-uBlock 也让 CPU 更省心<br>
-<img src="https://raw.githubusercontent.com/gorhill/uBlock/master/doc/benchmarks/cpu-usage-overall-chart-20141226.png" /><br>统计在基准测试中扩展本身累计的内存占用<br>基准测试中收集到的CPU占用率样本（每秒的百分比）总和<br>
-<sup>基准测试详细情况参见：<a href="https://github.com/gorhill/uBlock/blob/master/doc/benchmarks/cpu-usage-overall-20141226.ods">这个 LibreOffice 电子表格</a>。</sup>
+uBlock₀ 也让 CPU 更省心<br>
+<img src="https://raw.githubusercontent.com/gorhill/uBlock/master/doc/benchmarks/cpu-usage-overall-chart-20141226.png" /><br>统计在基准测试中扩展本身累计的内存占用<br>基准测试中收集到的 CPU 占用率样本（每秒的百分比）总和<br>
+<sup>基准测试详细情况参见：<a href="https://github.com/gorhill/uBlock/blob/master/doc/benchmarks/cpu-usage-overall-20141226.ods">LibreOffice 电子表格</a>。</sup>
 </p>
 
 #### 屏蔽能力
@@ -76,7 +84,7 @@ uBlock 也让 CPU 更省心<br>
 变得简洁高效并不意味着屏蔽得少<br>
 <img src="https://raw.githubusercontent.com/gorhill/uBlock/master/doc/benchmarks/privex-201409-30.png" /><br>连接到第三方服务器的网络请求数量<br>柱状图越低表示越少连接到第三方服务器<br>
 <sup>基准测试详细情况参见： 
-<a href="https://github.com/fang5566/uBlock/wiki/uBlock-%E5%92%8C%E5%85%B6%E4%BB%96%E5%B7%A5%E5%85%B7%E5%9C%A8%E5%B1%8F%E8%94%BD%E5%B9%BF%E5%91%8A%E3%80%81%E8%B7%9F%E8%B8%AA%E8%A1%8C%E4%B8%BA%E5%92%8C%E6%81%B6%E6%84%8F%E5%9F%9F%E5%90%8D%E6%96%B9%E9%9D%A2%E7%9A%84%E6%AF%94%E8%BE%83">uBlock 和其他工具在屏蔽广告、跟踪行为和恶意域名方面的比较</a>。
+<a href="https://github.com/fang5566/uBlock/wiki/uBlock-%E5%92%8C%E5%85%B6%E4%BB%96%E5%B7%A5%E5%85%B7%E5%9C%A8%E5%B1%8F%E8%94%BD%E5%B9%BF%E5%91%8A%E3%80%81%E8%B7%9F%E8%B8%AA%E8%A1%8C%E4%B8%BA%E5%92%8C%E6%81%B6%E6%84%8F%E5%9F%9F%E5%90%8D%E6%96%B9%E9%9D%A2%E7%9A%84%E6%AF%94%E8%BE%83">uBlock₀ 和其他工具在屏蔽广告、跟踪行为和恶意域名方面的比较</a>。
 </p>
 
 #### 快速测试
@@ -87,7 +95,7 @@ uBlock 也让 CPU 更省心<br>
 
 ## 安装
 
-你可以随意阅读一下[关于扩展需要获得的权限](https://github.com/fang5566/uBlock/wiki/%E5%85%B3%E4%BA%8E%E6%89%A9%E5%B1%95%E9%9C%80%E8%A6%81%E8%8E%B7%E5%BE%97%E7%9A%84%E6%9D%83%E9%99%90)。
+你可以随意阅读一下[扩展需要获得的权限](https://github.com/fang5566/uBlock/wiki/%E5%85%B3%E4%BA%8E%E6%89%A9%E5%B1%95%E9%9C%80%E8%A6%81%E8%8E%B7%E5%BE%97%E7%9A%84%E6%9D%83%E9%99%90)。
 
 #### Chromium
 
@@ -95,35 +103,26 @@ uBlock 也让 CPU 更省心<br>
 
 #### Firefox
 
-你可以到 [Firefox 附加组件主页](https://addons.mozilla.org/en-US/firefox/addon/ublock/)安装，或直接下载最新版本的 [uBlock.firefox.xpi](https://github.com/gorhill/uBlock/releases) 文件，将下载好的 `xpi` 文件拖动到附加组件管理器安装。
+你可以到 [Firefox 附加组件主页](https://addons.mozilla.org/en-US/firefox/addon/ublock-origin/)安装，或直接下载最新版本的 [uBlock.firefox.xpi](https://github.com/gorhill/uBlock/releases) 文件，将下载好的 `xpi` 文件拖动到附加组件管理器安装。
 
 #### Safari
 
-##### 仅支持 8.0 或更高的版本
+uBblock Origin 不支持 Safari
 
-你可以到[这里](https://chrismatic.io/ublock)安装最新版本的 µBlock for Safari，或到 [Safari Extension Gallery](https://extensions.apple.com/details/?id=net.gorhill.uBlock-96G4BAKDQ9) 安装可能过期的旧版本。
-
-<sup>支持 Safari 6.1 及后续版本（开发平台：Safari 8/Yosemite;测试平台：6.1/Mountain Lion 及 7/Mavericks）。</sup>
+建议你安装[chrisaljoudi 的 uBlock](https://github.com/chrisaljoudi/uBlock)，它官方支持 Safari。
 
 #### 所有浏览器的注意事项
 
-为了能够真正感受到 uBlock 的高效，建议你不要同时安装其他的广告过滤工具，比如 AdBlock 或 Adblock Plus，因为 uBlock [绝不逊色于](#屏蔽能力)这些流行的广告过滤工具。
+为了能够真正感受到 uBlock Origin 的高效，建议你不要同时安装其他的广告过滤工具，比如 AdBlock 或 Adblock Plus，因为 uBlock₀ [绝不逊色于](#屏蔽能力)这些流行的广告过滤工具。
 
 ## 发布历史
 
 你可以打开[发布页面](https://github.com/chrisaljoudi/uBlock/releases)了解所有发布历史以及每次发布时的关键更新。
 
-## 文档
-
-[快速指南：弹出界面](https://github.com/fang5566/uBlock/wiki/%E5%BF%AB%E9%80%9F%E6%8C%87%E5%8D%97%EF%BC%9A%E5%BC%B9%E5%87%BA%E7%95%8C%E9%9D%A2)
-
-![Popup](https://raw.githubusercontent.com/gorhill/uBlock/master/doc/img/popup-1.png)
-
-你还可以了解[动态过滤](https://github.com/fang5566/uBlock/wiki/%E5%8A%A8%E6%80%81%E8%BF%87%E6%BB%A4)等高级功能，更多的高级用法参见 [uBlock 的维基页面](https://github.com/fang5566/uBlock/wiki)。
 
 ## 关于
 
-[uBlock 的声明](MANIFESTO.md)
+[uBlock Origin 的声明](MANIFESTO.md)
 
 它是免费、开源的，属于用户也来自用户，无需任何捐助。
 
