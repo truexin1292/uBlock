@@ -96,7 +96,7 @@ uBlock₀ 也让 CPU 更省心<br>
 
 ## 安装
 
-你可以随意阅读一下[扩展需要获得的权限](https://github.com/fang5566/uBlock/wiki/%E5%85%B3%E4%BA%8E%E6%89%A9%E5%B1%95%E9%9C%80%E8%A6%81%E8%8E%B7%E5%BE%97%E7%9A%84%E6%9D%83%E9%99%90)。
+你可以随意阅读一下[扩展需要获取的权限](https://github.com/fang5566/uBlock/wiki/%E5%85%B3%E4%BA%8E%E6%89%A9%E5%B1%95%E9%9C%80%E8%A6%81%E8%8E%B7%E5%8F%96%E7%9A%84%E6%9D%83%E9%99%90)
 
 #### Chromium
 
