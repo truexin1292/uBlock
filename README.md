@@ -110,7 +110,7 @@ uBlock₀ 也让 CPU 更省心<br>
 
 uBblock Origin 不支持 Safari
 
-建议你安装[chrisaljoudi 的 uBlock](https://github.com/chrisaljoudi/uBlock)，它官方支持 Safari。
+建议你安装 [chrisaljoudi 的 uBlock](https://github.com/chrisaljoudi/uBlock)，它官方支持 Safari。
 
 #### 所有浏览器的注意事项
 
