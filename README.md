@@ -118,7 +118,7 @@ uBblock Origin 不支持 Safari
 
 ## 发布历史
 
-你可以打开[发布页面](https://github.com/chrisaljoudi/uBlock/releases)了解所有发布历史以及每次发布时的关键更新。
+你可以打开[发布页面](https://github.com/gorhill/uBlock/releases)了解所有发布历史以及每次发布时的关键更新。
 
 
 ## 关于
