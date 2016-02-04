@@ -35,7 +35,7 @@ uBlock Origin
 [弹出界面](https://github.com/fang5566/uBlock/wiki/快速指南：弹出界面) | [一个可以根据不同站点配置并支持一指一点拦截的防火墙](https://github.com/fang5566/uBlock/wiki/动态过滤：快速指南)
 <a href="https://github.com/fang5566/uBlock/wiki/快速指南：弹出界面"><img src="https://raw.githubusercontent.com/gorhill/uBlock/master/doc/img/popup-1.png" /></a><br><sup>.<br>.</sup> | <a href="https://github.com/fang5566/uBlock/wiki/动态过滤：快速指南"><img src="https://cloud.githubusercontent.com/assets/585534/9293685/378d18f0-4402-11e5-9255-8ed3fdbfa957.png" /></a><br><sup>按照你的要求进行配置：<br>上图显示的是默认屏蔽所有站点的第三方脚本和框架</sup>
 
-详情参见 [uBlock Origin 的 Wiki](https://github.com/gorhill/uBlock/wiki) 文档。
+详情参见 [uBlock Origin 的 Wiki](https://github.com/fang5566/uBlock/wiki) 文档。
 
 ## 基础介绍
 
