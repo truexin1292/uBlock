@@ -15,8 +15,8 @@ uBlock Origin
 
 **支持多浏览器的高效过滤工具，快速、有效且简洁。**&nbsp;&nbsp;[<img src="https://travis-ci.org/gorhill/uBlock.svg?branch=master" height="12">](https://travis-ci.org/gorhill/uBlock)
 
-* [用途和常规信息](#基础介绍)
 * [文档](#文档)
+* [用途和常规信息](#基础介绍)
 * [性能和运行效率](#性能比较)
   * [内存占用](#内存占用)
   * [CPU 占用](#cpu-占用)
@@ -25,9 +25,17 @@ uBlock Origin
 * [安装](#安装)
   * [Chromium](#chromium)
   * [Firefox](#firefox)
-  * [Safari](#safari)
 * [发布历史](#发布历史)
 * [维基页面](https://github.com/fang5566/uBlock/wiki)
+
+## 文档
+
+ 基本模式 | 高级用户模式
+:----------:|:------------------:
+[弹出界面](https://github.com/fang5566/uBlock/wiki/快速指南：弹出界面) | [一个可以根据不同站点配置并支持一指一点拦截的防火墙](https://github.com/fang5566/uBlock/wiki/动态过滤：快速指南)
+<a href="https://github.com/fang5566/uBlock/wiki/快速指南：弹出界面"><img src="https://raw.githubusercontent.com/gorhill/uBlock/master/doc/img/popup-1.png" /></a><br><sup>.<br>.</sup> | <a href="https://github.com/fang5566/uBlock/wiki/动态过滤：快速指南"><img src="https://cloud.githubusercontent.com/assets/585534/9293685/378d18f0-4402-11e5-9255-8ed3fdbfa957.png" /></a><br><sup>按照你的要求进行配置：<br>上图显示的是默认屏蔽所有站点的第三方脚本和框架</sup>
+
+详情参见 [uBlock Origin 的 Wiki](https://github.com/gorhill/uBlock/wiki) 文档。
 
 ## 基础介绍
 
@@ -41,20 +49,12 @@ uBlock₀ 安装后会默认开启 _EasyList_、_Peter Lowe's Adservers_、 _Eas
 
 如果你发现 uBlock₀ 安装完后屏蔽太多内容，你可以很方便地取消任何预开启的过滤规则列表，参考 Adblock Plus 安装后默认只开启 _EasyList_。
 
-## 文档
-
-[快速指南：弹出界面](https://github.com/fang5566/uBlock/wiki/%E5%BF%AB%E9%80%9F%E6%8C%87%E5%8D%97%EF%BC%9A%E5%BC%B9%E5%87%BA%E7%95%8C%E9%9D%A2)
-
-![弹出界面](https://raw.githubusercontent.com/gorhill/uBlock/master/doc/img/popup-1.png)
-
-你还可以了解[动态过滤](https://github.com/fang5566/uBlock/wiki/%E5%8A%A8%E6%80%81%E8%BF%87%E6%BB%A4)等高级功能，更多的高级用法参见 [uBlock₀ 的维基页面](https://github.com/fang5566/uBlock/wiki)。
-
 ## 性能比较
 
 #### 内存占用
 
 <div align="center">
-相比平均值，uBlock₀ <b>的确</b>让你的浏览器运行起来更轻巧。<sup>[1]</sup><br><br>
+相比平均值，uBlock Origin <b>的确</b>让你的浏览器运行起来更轻巧。<sup>[1]</sup><br><br>
 
 Chromium <sup>[2]</sup><br>
 <img src="https://raw.githubusercontent.com/gorhill/uBlock/master/doc/benchmarks/mem-usage-overall-chart-20141224.png" /><br>打开 11 个高流量网页时的总体内存占用(MB)（64 位 Chromium）<br><br>
@@ -105,12 +105,6 @@ uBlock₀ 也让 CPU 更省心<br>
 #### Firefox
 
 你可以到 [Firefox 附加组件主页](https://addons.mozilla.org/en-US/firefox/addon/ublock-origin/)安装，或直接下载最新版本的 [uBlock.firefox.xpi](https://github.com/gorhill/uBlock/releases) 文件，将下载好的 `xpi` 文件拖动到附加组件管理器安装。
-
-#### Safari
-
-uBblock Origin 不支持 Safari
-
-建议你安装 [chrisaljoudi 的 uBlock](https://github.com/chrisaljoudi/uBlock)，它官方支持 Safari。
 
 #### 所有浏览器的注意事项
 
